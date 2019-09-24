@@ -19,7 +19,7 @@ We will create a program for a car company that is trying to log their car order
 Design
 -------
 ### First sketch of the system
-![Firstsketch](Screen Shot 2019-09-25 at 8.43.00 AM.png)
+![Firstsketch](screenie.png)
 
 Development
 --------
