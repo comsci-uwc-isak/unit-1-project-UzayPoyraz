@@ -23,6 +23,8 @@ Design
 
 Development
 --------
+### 1. The following script crates the app folder and inside it creates two more folders: db and scripts.
+
 
 Evaluation
 -----------
