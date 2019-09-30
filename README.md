@@ -23,6 +23,13 @@ Design
 
 Development
 --------
+### Development of the functions; Create new car:
+The following steps summarize the algorithm to create a new car in the system
+1) Get inputs (Plate, Model, Color, Parranger number)
+2) Check number of arguments if 4 then continue, if not exit "message
+3) Write to main file with one extra line. Not erasing other Entries
+4) Create car trip file with Licence plate.txt
+
 ### 1. The following script crates the app folder and inside it creates two more folders: db and scripts.
 
 
