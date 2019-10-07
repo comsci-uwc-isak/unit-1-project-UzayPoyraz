@@ -67,5 +67,4 @@ to check the last lines of the maincarfile.txt
 
 We faced a problem: Too many arguments. We added quoting marks in order to show it as 1 sentence instead of multiple arguments.
 
-
-
+**Summary:** We were the alpha tester of the program, we did dynaminc testing using White-box testing method.
