@@ -50,6 +50,22 @@ The following steps summarize the algorithm to create a new car in the system
 
 Evaluation
 -----------
+Test 1:
+The first run of the test file was unsuccessful because the Database folder was non existent
+Also the create program did not store the licence file inside the Database folder.
+Changing the line `echo " " > $license.txt` to `echo " " > Database/$license.txt` Solved this issue.
+Second run of the program we had an issue: the test needed to move to the main folder
+```.sh
+cd ../
+```
+This is necessary because the `create.sh` resides in the main folder whereasthe test file
+is inside the /tests folders.
+To check that the car was creatd in the maincarfile.txt, the folowing command is used:
+`lastline = $( tail -n 1 Database/maincarfile.txt)`
+This line is used so we don't need to `cat` the program and check the whole file. Instead we use this line
+to check the last lines of the maincarfile.txt
+
+We faced a problem: Too many arguments. We added quoting marks in order to show it as 1 sentence instead of multiple arguments.
 
 
 
