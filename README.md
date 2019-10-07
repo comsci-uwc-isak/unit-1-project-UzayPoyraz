@@ -23,13 +23,13 @@ We will create a program for a car company that is trying to log their car order
 ### Success Criteria
 This are measureable outcomes
 1. A car can be created and stored in database
-1. A car information can be edited
-1. A car can be deleted
-1. The installation is ***simple-> one step process***
-1. A summary (total/average distance traveled) can be generated for a particular car
-1. Trips can be recorded and stored for an existing car
-1. A basic database system is implemented
-1. A basic backup functionality is available.
+2. A car information can be edited
+3. A car can be deleted
+4. The installation is ***simple-> one step process***
+5. A summary (total/average distance traveled) can be generated for a particular car
+6. Trips can be recorded and stored for an existing car
+7. A basic database system is implemented
+8. A basic backup functionality is available.
 
 Design
 -------
