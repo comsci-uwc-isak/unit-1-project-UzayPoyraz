@@ -1,30 +1,33 @@
 #!/bin/bash
 
 #This file creates the folder structure for the
-#minimal Car Rental App
+#minimal Car Rental app
 
-echo "Starting installation"
-echo "Enter the path where you want to install. Press Enter"
-
+echo "Starting the installation"
+echo "To install to PC press Enter. Else enter the path."
+    ``
 read path
 
+if [ "$path" == "yes" ]; then
+    cd ~/Desktop
+    echo "~/Desktop" > path.txt
+    mkdir RentalCarApp
+    cd RentalCarApp
+    mkdir db
+    mkdir scripts
+else
 #moving to the desired location
-cd $path
-echo "moving to $path"
-echo $PWD
-#check for correct change directory
-if [ "$path" != "$PWD" ];then
-	echo "Error creating the folder structure"
-	exit
+    cd path
+    echo "moving to $path"
+    echo "$path" > path.txt
+    echo $PWD
+    mkdir RentalCarApp
+    cd RentalCarApp
+    mkdir db
+    mkdir scripts
 fi
 
-#Create App Folder
-mkdir RentalCarApp
 
-cd RentalCarApp
+#Create App folder
 
-#create folder for database and scripts
-mkdir db
-mkdir scripts
-echo "structure created successfully"
-
+echo "Structure created successfully"
