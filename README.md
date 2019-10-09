@@ -45,6 +45,9 @@ The following steps summarize the algorithm to create a new car in the system
 3) Write to main file with one extra line. Not erasing other Entries
 4) Create car trip file with Licence plate.txt
 
+### Summary Actions:
+
+
 ### 1. The following script crates the app folder and inside it creates two more folders: db and scripts.
 
 
