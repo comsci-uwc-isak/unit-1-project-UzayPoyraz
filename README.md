@@ -45,6 +45,11 @@ The following steps summarize the algorithm to create a new car in the system
 3) Write to main file with one extra line. Not erasing other Entries
 4) Create car trip file with Licence plate.txt
 
+### Uninstall:
+1) Ask user if they want to delete or not
+2) If yes remove folder by rm command 
+3) If no exit
+
 ### Summary Actions:
 
 
