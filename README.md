@@ -50,11 +50,34 @@ The following steps summarize the algorithm to create a new car in the system
 2) If yes remove folder by rm command 
 3) If no exit
 
-### Summary Actions:
+### Backup:
+1) Ask the user where the backup should be
+2) Copy the files
+3) Paste it in the folder the user chose.
 
+### Edit Car:
+1) Ask user for the input
+2) If the imputs are not 4, tell the user that the input is incorrect
+3) Find the car that matches the inputs
+4) Delete the old information and add the new one
+### Summary scripts:
+1) Get an argument from the user
+2) If the argument is licence plate, show that cars total km
+3) If the user enters all as an argument, show all of the cars total km.
+
+### Delete car:
+1) Ask the user to enter the licence plate of the car that they want to delete
+2) Check if user entered a correct argument
+3) If yes, delete the $plate and the text from maincarfile.txt
+
+### Install:
+1) Ask user if they want to download it to the default pathway or to a location they choose
+2) Move to that location and install from the download location
 
 ### 1. The following script crates the app folder and inside it creates two more folders: db and scripts.
 
+All of the necessary scripts can be found in the repisotory
+----------
 
 Evaluation
 -----------
