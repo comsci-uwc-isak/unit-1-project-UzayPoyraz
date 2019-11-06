@@ -76,7 +76,7 @@ The following steps summarize the algorithm to create a new car in the system
 
 ### 1. The following script crates the app folder and inside it creates two more folders: db and scripts.
 
-All of the necessary scripts can be found in the repisotory
+All of the necessary scripts can be found in the repository
 ----------
 
 Evaluation
