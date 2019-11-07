@@ -1,8 +1,8 @@
 ![CarRental](logo.png)
 ```.py
-Marks=7
+Marks=10
 Demo= No demonstration in class
-Total=(Marks+Demo)=7
+Total=(Marks+Demo)=10
 ```
 Car Rental Minimal App
 ===========================
@@ -108,10 +108,11 @@ All of the necessary scripts can be found in the repository
 
 |**level**|**Description**|
 |-----|------------|
-|2|The proposed solution is characterized by limited use of existing tools. There is no explanation of why the techniques are used or how they are adequate for the task. Sources are used but are not identified.|
+|2+3|The proposed solution is characterized by limited use of existing tools. There is no explanation of why the techniques are used or how they are adequate for the task. Sources are used but are not identified.|
 ```.sh
 Rationale
-* You have included the step for many of the actions, however, not code or further research is included
+* You have included the step for many of the actions, however, not code or further research is included in the document
+* You programs are included in the repository, this helped your mark
 ```
 
 Evaluation
