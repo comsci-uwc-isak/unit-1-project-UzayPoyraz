@@ -1,5 +1,9 @@
 ![CarRental](logo.png)
-
+```.py
+Marks=7
+Demo= No demonstration in class
+Total=(Marks+Demo)=7
+```
 Car Rental Minimal App
 ===========================
 
@@ -31,10 +35,31 @@ This are measureable outcomes
 7. A basic database system is implemented
 8. A basic backup functionality is available.
 
+**Criterion A**
+
+|Level|Descriptor|
+|----|-----|
+|1|An appropriate scenario for investigation for an identified client is stated. The rationale for choosing the proposed product is identified. The criteria for evaluating the success of the product are generally inappropriate.|
+```.sh
+Rational
+* Uzay, this is practically what I wrote in class. There is no further development on your part.
+* Who is the client? Why is the product being developed? Why are we using BASH or other tools? These are questions that you will need to solve for next Unit.
+```
+
 Design
 -------
 ### First sketch of the system
 ![Firstsketch](screenie.png)
+
+## Criterion B
+|**level**|**Description**|
+|-----|------------|
+|3|An outline test plan is included but limited. A system diagram is included. From this information it is difficult to see how the product was developed.|
+```.sh
+Rationale
+* Good job with the system diagram
+* Here again you have limited evidence for your work, you are missing flow diagrams, description of the images, and test plan"
+```
 
 Development
 --------
@@ -79,6 +104,16 @@ The following steps summarize the algorithm to create a new car in the system
 All of the necessary scripts can be found in the repository
 ----------
 
+## Criterion C
+
+|**level**|**Description**|
+|-----|------------|
+|2|The proposed solution is characterized by limited use of existing tools. There is no explanation of why the techniques are used or how they are adequate for the task. Sources are used but are not identified.|
+```.sh
+Rationale
+* You have included the step for many of the actions, however, not code or further research is included
+```
+
 Evaluation
 -----------
 Test 1:
@@ -99,3 +134,12 @@ to check the last lines of the maincarfile.txt
 We faced a problem: Too many arguments. We added quoting marks in order to show it as 1 sentence instead of multiple arguments.
 
 **Summary:** We were the alpha tester of the program, we did dynaminc testing using White-box testing method.
+
+## Criterion D
+|**level**|**Description**|
+|-----|------------|
+|1|There is a limited attempt to evaluate the product against the success criteria identified in criterion A. There is limited evidence of any recommendations for further improvement, they are trivial or unrealistic.|
+```.sh
+Rationale
+* You are missing several most of this evaluation.
+```
